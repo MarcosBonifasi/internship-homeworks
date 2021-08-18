@@ -11,8 +11,17 @@
 
 - Investigar qué hace el commando "git stash"
 
-    * 
+    *   Este comando es muy útil cuando se está trabajando en alguna nueva funcionalidad pero se necesita hacer otra de emergencia en otra rama, por lo que
+        con git stash se puede dejar guardado ese avance que se tuvo en un stack aparte, para que cuando se posible, poder continuar con el desarrollo de 
+        la funcionalidad previa.
 
 - Investigar 3 comandos no mencionados y poner un caso de uso
 
-    *
+    *   git checkout -b <branch_name>
+            Con este comando creamos una nueva rama y accedemos a ella, por lo que no ahorramos tiempo.
+    *   git remove -v 
+            Con este comando podemos ver la URL de donde está nuestro repositorio en la nube.
+    *   git merge <branch_name>
+            Este comando sirve para unir los cambios de la rama específicada con la rama actual. 
+    *   git stash apply
+            Lo utilizamos cuando deseamos recuperar el avance que habiamos guardado en el stack, cuando utilizamos el git stash.
