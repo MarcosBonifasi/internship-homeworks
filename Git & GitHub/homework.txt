@@ -1,0 +1,18 @@
+- Diferencia entre Fork y Clone
+
+    *   Git clone se puede utilizar para copiar un repositorio propio y llevarlo de manera local a nuestras computadoras.
+        En cambio, Git Fork se utiliza cuando un repositorio no es propio y de alguna manera se aquiere contribuir a ese repositorio, entonces
+        se hace un Git Fork para copiar ese repositorio a nuestra propia cuenta de GitHub y así tener una versión propia para más adelante
+        hacer un Pull Request.
+
+- Clonar mi repositorio de ejemplo y realizar un Pull Request
+
+    *   --
+
+- Investigar qué hace el commando "git stash"
+
+    * 
+
+- Investigar 3 comandos no mencionados y poner un caso de uso
+
+    *
